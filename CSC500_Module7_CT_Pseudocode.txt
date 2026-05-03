@@ -1,0 +1,21 @@
+START
+
+Initialize course_room_map with course and room data
+
+Initialize course_instructor_map with course and instructor data
+
+Initialize course_schedule_map with course and meeting time data
+
+Prompt user to enter a course code
+
+CALL get_course_details(course_code)
+
+IF result exists:
+
+    Display room, instructor, and schedule
+
+ELSE:
+
+    Display "Course not found"
+
+END
